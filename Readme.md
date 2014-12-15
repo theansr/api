@@ -1,4 +1,4 @@
-Restful ansr API
+RESTful ansr API
 ================
 
 All URLs start with https://api.theansr.com/v1/. SSL only. The path is prefixed with the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
@@ -12,7 +12,7 @@ Remember that anyone who has your authentication token can see and change everyt
 
 # API Ready for use
 
-* Accounts
-* SMS
+* [Accounts](https://github.com/theansr/api/blob/master/sections/accounts.md)
+* [SMS](https://github.com/theansr/api/blob/master/sections/sms.md)
 
 
