@@ -45,5 +45,5 @@ curl https://api.theansr.com/v1/account/configure_ivr -d "&did=0044744xxxxxxx&an
 
 Response
 ```
-{ errorCode: 0, balance: 15.721 }
+{ errorCode: 0 }
 ```
