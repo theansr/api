@@ -85,7 +85,7 @@ Attributes
 
 
 ### Call 
-The Call element is used to make a call and join the ongoing call with the new call. This element can be used in IVRs.
+The Call element is used to make a call and join it with the ongoing call. This element can be used in IVRs.
 
 Attributes
 
