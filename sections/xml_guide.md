@@ -12,6 +12,7 @@ Your application must use ansr XML to control a call. The XML elements can be co
 * [Play](https://github.com/theansr/api/blob/master/sections/xml_guide.md#play)
 * [Say](https://github.com/theansr/api/blob/master/sections/xml_guide.md#say)
 * [Redirect](https://github.com/theansr/api/blob/master/sections/xml_guide.md#redirect)
+* [Call](https://github.com/theansr/api/blob/master/sections/xml_guide.md#call)
 
 
 ### GetDigits
@@ -83,3 +84,15 @@ Attributes
 * method : Used to specify the HTTP request mode to obtain the Redirect URL. Default GET
 
 
+### Call 
+The Call element is used to make a call and join the ongoing call with the new call. This element can be used in IVRs.
+
+Attributes
+
+* type (mandatory): Defines the type of the destination of the new call. Currently only "Extension" type is supported.
+
+```
+<Response>
+    <Say tyoe="Extension">202</Say>
+</Response>
+```
