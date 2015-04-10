@@ -14,6 +14,7 @@ Remember that anyone who has your authentication token can see and change everyt
 
 * [Accounts](https://github.com/theansr/api/blob/master/sections/accounts.md)
 * [Dids](https://github.com/theansr/api/blob/master/sections/dids.md)
+* [RingGroups](https://github.com/theansr/api/blob/master/sections/ring_groups.md)
 * [Schedules](https://github.com/theansr/api/blob/master/sections/schedules.md)
 * [SMS](https://github.com/theansr/api/blob/master/sections/sms.md)
 * [Calls](https://github.com/theansr/api/blob/master/sections/calls.md)
