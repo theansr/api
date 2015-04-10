@@ -80,7 +80,7 @@ Response
 View RingGroups
 
 ```
- curl http://ansr-api.dev/v1/dids/{your_did}/ring_groups/index -u 52f8172d38537cfe2505c3b6d9464300: 
+ curl https://api.theansr.com/v1/dids/{your_did}/ring_groups/index -u 52f8172d38537cfe2505c3b6d9464300: 
 ```
 
 Response 
@@ -91,7 +91,7 @@ Response
 Disable RingGroup
 
 ```
- curl http://ansr-api.dev/v1/dids/{your_did}/ring_groups/3/enable -u 52f8172d38537cfe2505c3b6d9464300: 
+ curl https://api.theansr.com/v1/dids/{your_did}/ring_groups/3/enable -u 52f8172d38537cfe2505c3b6d9464300: 
 ```
 
 Response 
@@ -101,7 +101,7 @@ Response
 Enable RingGroup
 
 ```
- curl http://ansr-api.dev/v1/dids/{your_did}/ring_groups/3/enable -u 52f8172d38537cfe2505c3b6d9464300: 
+ curl https://api.theansr.com/v1/dids/{your_did}/ring_groups/3/enable -u 52f8172d38537cfe2505c3b6d9464300: 
 ```
 
 Response 
@@ -112,7 +112,7 @@ Response
 Add destination to RingGroup
 
 ```
- curl http://ansr-api.dev/v1/dids/{your_did}/ring_groups/3/add_destination -u 52f8172d38537cfe2505c3b6d9464300: -d "&destination=4421xxxxxxxx"
+ curl https://api.theansr.com/v1/dids/{your_did}/ring_groups/3/add_destination -u 52f8172d38537cfe2505c3b6d9464300: -d "&destination=4421xxxxxxxx"
 ```
 
 Response 
@@ -122,7 +122,7 @@ Response
 Remove destination from RingGroup
 
 ```
- curl http://ansr-api.dev/v1/dids/{your_did}/ring_groups/3/remove_destination -u 52f8172d38537cfe2505c3b6d9464300: -d "&destination=4421xxxxxxxx"
+ curl https://api.theansr.com/v1/dids/{your_did}/ring_groups/3/remove_destination -u 52f8172d38537cfe2505c3b6d9464300: -d "&destination=4421xxxxxxxx"
 ```
 
 Response 
@@ -132,7 +132,7 @@ Response
 Show RingGroup Details
 
 ```
- curl http://ansr-api.dev/v1/dids/{your_did}/ring_groups/3/show -u 52f8172d38537cfe2505c3b6d9464300: -d "&destination=4421xxxxxxxx"
+ curl https://api.theansr.com/v1/dids/{your_did}/ring_groups/3/show -u 52f8172d38537cfe2505c3b6d9464300: -d "&destination=4421xxxxxxxx"
 ```
 
 Response

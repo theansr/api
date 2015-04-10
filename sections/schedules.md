@@ -28,7 +28,7 @@ The response is given in JSON format
 Create Schedule
 
 ```
- curl http://ansr-api.dev/v1/ring_groups/7/schedules -u 52f8172d38537cfe2505c3b6d9464300: -d "&schedule[starttime]=0923&schedule[endtime]=2000&schedule[startdate]=2015-04-14"
+ curl https://api.theansr.com/v1/ring_groups/7/schedules -u 52f8172d38537cfe2505c3b6d9464300: -d "&schedule[starttime]=0923&schedule[endtime]=2000&schedule[startdate]=2015-04-14"
 ```
 
 Response
@@ -39,7 +39,7 @@ Response
 Update Schedule
 
 ```
- curl http://ansr-api.dev/v1/ring_groups/7/schedules/4 -u 52f8172d38537cfe2505c3b6d9464300: -d "&schedule[starttime]=1023&schedule[endtime]=2000&schedule[startdate]=2015-04-14"
+ curl https://api.theansr.com/v1/ring_groups/7/schedules/4 -u 52f8172d38537cfe2505c3b6d9464300: -d "&schedule[starttime]=1023&schedule[endtime]=2000&schedule[startdate]=2015-04-14"
 ```
 
 Response
