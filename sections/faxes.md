@@ -2,7 +2,7 @@ Faxes
 =====
 
 # Create Fax
-`POST /calls` Make an outbound call
+`POST /faxes` Make an outbound call
 
 ### Request Data
 

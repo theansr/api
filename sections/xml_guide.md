@@ -60,6 +60,7 @@ The Say element is used to read a text to the caller/callee.
 Attributes
 
 * lang (mandatory): The language of the text. Default en_UK
+* delay(mandatory): Adds a delay before reading the text. Default 0
 
 Supported Languages
 
@@ -93,6 +94,6 @@ Attributes
 
 ```
 <Response>
-    <Say tyoe="Extension">202</Say>
+    <Say type="Extension">202</Say>
 </Response>
 ```
