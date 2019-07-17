@@ -17,7 +17,7 @@ The response is given in JSON format
 
 Get Balance
 ```
-curl https://api.theansr.com/accounts/get_balance -u api-key:
+curl https://api.theansr.com/v1/accounts/get_balance -u api-key:
 ```
 
 Response
