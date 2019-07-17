@@ -70,7 +70,7 @@ The response is in JSON format
 
 Create SMS
 ```
-curl https://api.theansr.com/sms -d "&sender=TestSMS&recipients=44744xxxxxxx&body=Test123" -u api-key:
+curl https://api.theansr.com/v1/sms -d "&sender=TestSMS&recipients=44744xxxxxxx&body=Test123" -u api-key:
 ```
 
 Response
@@ -80,7 +80,7 @@ Response
 
 Create Verification PIN SMS
 ```
-curl https://api.theansr.com/sms/verification_pin -d "&sender=TestSMS&recipients=44744xxxxxxx" -u api-key:
+curl https://api.theansr.com/v1/sms/verification_pin -d "&sender=TestSMS&recipients=44744xxxxxxx" -u api-key:
 ```
 
 Response
@@ -91,7 +91,7 @@ Response
 
 GET Verification PIN
 ```
-curl https://api.theansr.com/sms/verification_pin/NEsCFhcN9mk3JKZuHqBoUm9Pma9s67T -u api-key:
+curl https://api.theansr.com/v1/sms/verification_pin/NEsCFhcN9mk3JKZuHqBoUm9Pma9s67T -u api-key:
 ```
 
 Response
@@ -101,7 +101,7 @@ Response
 
 Verify PIN
 ```
-curl https://api.theansr.com/sms/verification_pin/NEsCFhcN9mk3JKZuHqBoUm9Pma9s67T  -d "&pin=5678" -u api-key:
+curl https://api.theansr.com/v1/sms/verification_pin/NEsCFhcN9mk3JKZuHqBoUm9Pma9s67T  -d "&pin=5678" -u api-key:
 ```
 
 Response
