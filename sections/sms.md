@@ -51,7 +51,7 @@ The response is in JSON format
 
 ## Verify PIN
 
-`POST /sms/verification_pin/{call_id}` Verifies the pin against the given {call_id} and returns true or false
+`POST /sms/verify_pin/{call_id}` Verifies the pin against the given {call_id} and returns true or false
 
 ### Request Data
 * pin (string): The PIN that should be verified against the given {call_id}.
